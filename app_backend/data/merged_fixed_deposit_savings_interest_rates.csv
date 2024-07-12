@@ -1,0 +1,50 @@
+Bank,Bank Type,Highest FD Interest Rate (%),1-Year Tenure (%),3-Year Tenure (%),5-Year Tenure (%),Highest Savings Interest Rate (%),Amount Requirements
+Axis Bank,Private Sector Bank,7.2,6.7,7.1,7,3.5,"Rs. 50 lakh and up to less than Rs. 2,000 crore"
+Bandhan Bank,Private Sector Bank,7.85,7.85,7.25,5.85,0,
+City Union Bank,Private Sector Bank,7.25,7,6.5,6.25,0,
+CSB Bank,Private Sector Bank,7.75,5,5.75,5.75,0,
+DBS Bank,Private Sector Bank,7.5,7,6.5,6.5,0,
+DCB Bank,Private Sector Bank,8.05,7.1,7.55,7.4,0,
+Dhanlaxmi Bank,Private Sector Bank,7.25,6.75,6.5,7.25,0,
+Federal Bank,Private Sector Bank,7.4,6.8,7,6.6,0,
+HDFC Bank,Private Sector Bank,7.25,6.6,7.15,7.2,3.5,Of and above Rs. 50 lakh
+ICICI Bank,Private Sector Bank,7.2,6.7,7,7,3.5,For end of day balance of 50 lakhs and above
+IDBI Bank,Private Sector Bank,7.25,6.8,6.5,6.5,0,
+IDFC First Bank,Private Sector Bank,7.9,6.5,7.25,7,7,> Rs. 5 lakh <= Rs. 50 crore
+IndusInd Bank,Private Sector Bank,7.99,7.75,7.25,7.25,6.75,Daily balance above Rs. 50 Crs Upto Rs. 100 Crs
+Jammu & Kashmir Bank,Private Sector Bank,7.05,7.05,6.5,6.5,0,
+Karnataka Bank,Private Sector Bank,7.25,7.1,6.5,6.5,0,
+Karur Vysya Bank,Private Sector Bank,7.5,7,7,6.5,0,
+Kotak Mahindra Bank,Private Sector Bank,7.4,7.1,7,6.2,4,Balance above Rs. 50 lakh and up to Rs. 100 crore
+Nainital Bank,Private Sector Bank,7.05,6.7,6.25,5.75,0,
+RBL Bank,Private Sector Bank,8,7.5,7.5,7.1,7.5,Above Rs. 25 lakh and up to Rs. 2 crore
+SBM Bank India,Private Sector Bank,8,7.05,7.3,7.75,0,
+South Indian Bank,Private Sector Bank,7.25,6.7,6.7,6,0,
+Tamilnad Mercantile Bank,Private Sector Bank,7.5,7,6.5,6.5,0,
+Yes Bank,Private Sector Bank,8,7.25,7.25,7.25,0,
+Deutsche Bank,Private Sector Bank,8.1,7,8,7.5,0,
+HSBC Bank,Private Sector Bank,7.5,4,7,6,0,
+Standard Chartered Bank,Private Sector Bank,7.5,7.15,7.1,6.75,0,
+Bank of Baroda,Public Sector Bank,7.25,6.85,7.25,6.5,4.5,"Rs. 1,000 crores and above"
+Bank of India,Public Sector Bank,7.3,6.8,6.5,6,2.9,"Above Rs. 1,00,000"
+Bank of Maharashtra,Public Sector Bank,7.25,6.75,6.5,6.5,0,
+Canara Bank,Public Sector Bank,7.25,6.85,6.8,6.7,4,"For outstanding balance of Rs. 2,000 crore & above"
+Central Bank of India,Public Sector Bank,7.3,6.85,6.5,6.5,3.25,Above Rs. 1000 Crore
+Indian Bank,Public Sector Bank,7.25,6.1,6.25,6.25,3.25,Above Rs. 1000 Crore
+Indian Overseas Bank,Public Sector Bank,7.3,6.9,6.5,6.5,0,
+Punjab & Sind Bank,Public Sector Bank,7.3,6.3,6,6,0,
+Punjab National Bank,Public Sector Bank,7.25,6.75,7,6.5,3,Saving Fund Account Balance of Rs.100 Crore & above
+State Bank of India,Public Sector Bank,7.1,6.8,6.75,6.5,3,Balances less than Rs. 10 Crore
+UCO Bank,Public Sector Bank,7.05,6.5,6.3,6.2,0,
+Union Bank of India,Public Sector Bank,7.25,6.75,6.5,6.5,0,
+AU Small Finance Bank,Small Finance Bank,8,7.25,7.5,7.25,7.25,Balances from Rs. 1 crore to less than Rs. 5 crore
+Capital Small Finance Bank,Small Finance Bank,7.55,7.5,7.15,7.1,0,
+Equitas Small Finance Bank,Small Finance Bank,8.5,8.2,8,7.25,7.8,Above Rs. 50 crore
+ESAF Small Finance Bank,Small Finance Bank,8.25,6,6.75,6.25,8,Above Rs.5 lakhs (i.e. for incremental amount above Rs.5 lakhs)
+Jana Small Finance Bank,Small Finance Bank,8.25,8.25,8.25,7.25,7.55,More than Rs. 10 crore and up to Rs. 20 crore
+North East Small Finance Bank,Small Finance Bank,9,9,8,8,0,
+Shivalik Small Finance Bank,Small Finance Bank,8.55,7.8,7.5,6.5,0,
+Suryoday Small Finance Bank,Small Finance Bank,8.65,6.85,8.6,8.25,7.75,Above Rs. 5 crore up to & including Rs. 25 crore
+Ujjivan Small Finance Bank,Small Finance Bank,8.25,8.25,7.2,7.2,7.5,Above Rs. 5 lakh
+Unity Small Finance Bank,Small Finance Bank,9,7.85,8.15,8.15,0,
+Utkarsh Small Finance Bank,Small Finance Bank,8.5,8,8.5,7.75,7.75,Incremental Balance above Rs. 50 crore

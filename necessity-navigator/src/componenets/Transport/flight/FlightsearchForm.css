@@ -1,0 +1,100 @@
+/* FlightSearchForm.css */
+
+/* Container styles */
+.flight-search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.flight-search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1c5a9d;
+}
+
+.flight-search-form .input-group {
+    margin-bottom: 15px;
+    /* Add margin between input groups */
+}
+
+.flight-search-form form {
+    width: 100%;
+}
+
+.flight-search-form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.flight-search-form input[type="date"],
+.flight-search-form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flight-search-form input[type="date"] {
+    flex: 1;
+    /* Allow date input to grow */
+    max-width: 250px;
+}
+
+.flight-search-form button {
+    margin-top: 10px;
+}
+
+/* Flight list styles */
+.flight-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.flight-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: rgb(61, 61, 61);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: bold;
+}
+
+.flight-list li div {
+    margin-bottom: 10px;
+}
+
+.flight-list li p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .flight-search-form {
+        padding: 10px;
+    }
+
+    .flight-search-form form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .flight-search-form input[type="date"] {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .flight-search-form button {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,126 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f6f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.logout-button:hover {
+    background-color: #ff4d4d;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+    margin-right: 20px;
+}
+
+.user-avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.user-details {
+    color: #333;
+}
+
+.user-details p {
+    margin: 5px 0;
+}
+
+.services-section {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.services-section h2 {
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-card strong {
+    color: #333;
+}
+
+.add-service-button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.add-service-button:hover {
+    background-color: #45a049;
+}
+
+
+.react-tabs__tab-list {
+    border-bottom: 2px solid #ddd;
+    margin: 0 0 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.react-tabs__tab {
+    margin: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #666;
+}
+
+.react-tabs__tab--selected {
+    border-bottom: 2px solid #ff6b6b;
+    color: #ff6b6b;
+}

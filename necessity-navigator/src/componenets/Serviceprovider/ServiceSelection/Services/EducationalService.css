@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+}
+
+.register-edu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.register-edu-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.register-edu-form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.form-group-edu {
+    margin-bottom: 1rem;
+}
+
+.form-group-edu label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.form-group-edu input,
+.form-group-edu select,
+.form-group-edu textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group-edu input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.form-group-edu select[multiple] {
+    height: 100px;
+}
+
+.submit-button-edu {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #6e8efb;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-button-edu:hover {
+    background-color: #5a76d8;
+}
+
+.error-edu {
+    color: red;
+    margin-top: 1rem;
+    text-align: center;
+}

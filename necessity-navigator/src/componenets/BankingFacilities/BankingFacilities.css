@@ -1,0 +1,58 @@
+.banking-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.banking-left {
+    flex: 1;
+    max-width: 60%;
+    padding-right: 20px;
+    background-color: aliceblue;
+    border-radius: 2em;
+}
+
+.banking-right {
+    flex: 1;
+    max-width: 40%;
+    background-color: rgb(215, 234, 244);
+    border-radius: 2em;
+}
+
+.banking-facilities-container {
+    width: 100%;
+}
+
+.banking-scrollable-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.banking-facilities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banking-facility-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.banking-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.banking-paragraph {
+    margin: 5px 0;
+}
+
+.banking-paragraph span {
+    font-weight: bold;
+}

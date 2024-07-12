@@ -1,0 +1,69 @@
+.service-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f7fb;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.service-selection-container h2 {
+    font-size: 2em;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+}
+
+.service-selection-container p {
+    font-size: 1.2em;
+    color: #9a9a9a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.service-button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.service-button.healthcare {
+    background-color: #9a6ae7;
+    color: white;
+}
+
+.service-button.healthcare:hover {
+    background-color: #753c95;
+}
+
+.service-button.transport {
+    background-color: #9a6ae7;
+    color: white;
+}
+
+.service-button.transport:hover {
+    background-color: #753c95;
+}
+
+.service-button.educational {
+    background-color: #9a6ae7;
+    color: white;
+}
+
+.service-button.educational:hover {
+    background-color: #753c95;
+}

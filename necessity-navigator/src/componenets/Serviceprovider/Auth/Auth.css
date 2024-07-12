@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #7f96e0, #b896e1);
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    padding: 0;
+}
+
+.auth-container-header {
+    width: 100%;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fancy-landing-header .header-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.fancy-landing-header h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+}
+
+.fancy-landing-header p {
+    font-size: 1.2rem;
+    margin: 0 0 30px;
+}
+
+.explore-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.explore-button:hover {
+    background-color: #e65c54;
+}
+
+.best-programs,
+.value-proposition,
+.get-started {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.best-programs h2,
+.value-proposition h2,
+.get-started h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.program-cards,
+.value-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.program-card,
+.value-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.program-card:hover,
+.value-card:hover {
+    transform: translateY(-10px);
+}
+
+.program-card h3,
+.value-card h3 {
+    font-size: 1.5rem;
+    color: #6e8efb;
+}
+
+.program-card p,
+.value-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.get-started {
+    background-color: #6e8efb;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.get-started-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.get-started-button:hover {
+    background-color: #e65c54;
+}
+
+.login-box {
+    margin-top: 20px;
+}
+
+.login-box p {
+    color: white;
+    font-size: 1rem;
+}
+
+.login-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    width: 140px;
+}
+
+
+
+.login-button:hover {
+    background-color: #e65c54;
+}
+
+.return-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    width: 100px;
+}
