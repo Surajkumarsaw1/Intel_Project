@@ -38,13 +38,14 @@ requests>=2.26.0
 Clone the repository:
 
 ```bash
-git clone https://github.com/DarkNYX2003/Intel_Project.git
+git clone <repository-url>
 cd <repository-directory>
 ```
 
 Install Django dependencies:
 
 ```bash
+cd app_backend
 python -m venv env
 env\Scripts\activate
 pip install -r requirements.txt
@@ -53,21 +54,21 @@ pip install -r requirements.txt
 Install React dependencies:
 
 ```bash
-cd frontend
+cd ../necessity-navigator
 npm install
 ```
 
 Run the Django server:
 
 ```bash
-cd ..
+cd ../app_backend
 python manage.py runserver
 ```
 
 Run the React development server:
 
 ```bash
-cd frontend
+cd ../necessity-navigator
 npm start
 ```
 
@@ -83,6 +84,7 @@ cd <repository-directory>
 Install Django dependencies:
 
 ```bash
+cd app_backend
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
@@ -91,21 +93,21 @@ pip install -r requirements.txt
 Install React dependencies:
 
 ```bash
-cd frontend
+cd ../necessity-navigator
 npm install
 ```
 
 Run the Django server:
 
 ```bash
-cd ..
+cd ../app_backend
 python manage.py runserver
 ```
 
 Run the React development server:
 
 ```bash
-cd frontend
+cd ../necessity-navigator
 npm start
 ```
 
@@ -121,6 +123,7 @@ cd <repository-directory>
 Install Django dependencies:
 
 ```bash
+cd app_backend
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
@@ -129,20 +132,20 @@ pip install -r requirements.txt
 Install React dependencies:
 
 ```bash
-cd frontend
+cd ../necessity-navigator
 npm install
 ```
 
 Run the Django server:
 
 ```bash
-cd ..
+cd ../app_backend
 python manage.py runserver
 ```
 
 Run the React development server:
 
 ```bash
-cd frontend
+cd ../necessity-navigator
 npm start
 ```
