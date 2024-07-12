@@ -38,7 +38,7 @@ requests>=2.26.0
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/DarkNYX2003/Intel_Project.git
 cd <repository-directory>
 ```
 
