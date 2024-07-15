@@ -98,8 +98,10 @@ const PicknDrop = () => {
         setMap(null);
     };
 
+    const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
+
     return (
-        <LoadScript googleMapsApiKey="AIzaSyAiUwkPMGn2aiBoDVxhpQjeDukEuDY1pPA" libraries={['places']}>
+        <LoadScript googleMapsApiKey={apiKey} libraries={['places']}>
             <div className="container">
                 <div className="left-side">
                     <div className="map-container">

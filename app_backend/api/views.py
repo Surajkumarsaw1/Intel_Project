@@ -21,13 +21,12 @@ load_dotenv()
 
 CSV_FILE_PATH = os.path.join(settings.BASE_DIR, 'data', 'merged_fixed_deposit_savings_interest_rates.csv')
 
+API_KEY = os.getenv("GOOGLE_API_KEY")
 
 
 def withinradius(lat1,lng1,lat2,lng2):
     return geodesic((lat1, lng1), (lat2, lng2)).meters
 
-
-API_KEY = "AIzaSyAiUwkPMGn2aiBoDVxhpQjeDukEuDY1pPA"
 
 cache = TTLCache(maxsize=100, ttl=3600)
 
@@ -603,7 +602,7 @@ class SchoolListFromDB(APIView):
         return Response(nearby_schools)
 
     def get_state_from_coordinates(self, latitude, longitude):
-        api_key = 'AIzaSyAiUwkPMGn2aiBoDVxhpQjeDukEuDY1pPA'
+        api_key = API_KEY
         url = f'https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude},{longitude}&key={api_key}'
         response = requests.get(url)
         if response.status_code == 200:

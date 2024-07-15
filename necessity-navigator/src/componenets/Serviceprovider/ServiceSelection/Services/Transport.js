@@ -51,7 +51,12 @@ const RegisterTransportService = () => {
             }
         };
 
-        loadScript(`https://maps.googleapis.com/maps/api/js?key=AIzaSyAiUwkPMGn2aiBoDVxhpQjeDukEuDY1pPA&libraries=places`, initAutocomplete);
+        const apiKey = process.env.REACT_APP_GOOGLE_API_KEY;
+        if (apiKey) {
+            loadScript(`https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`, initAutocomplete);
+        } else {
+            console.error('Google Maps API key is missing');
+        }
     }, []);
 
     const handleChange = (e) => {
