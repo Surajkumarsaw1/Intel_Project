@@ -5,7 +5,7 @@ import Hero from "./hero/Hero";
 import Services from "./services/Services";
 import './Home.css';
 import Testimonials from "./testimonial/Testimonials";
-import Footer from "./footer/Footer";
+
 
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
             <Hero />
             <Services />
             <Testimonials />
-            <Footer />
+
         </div>
     );
 }

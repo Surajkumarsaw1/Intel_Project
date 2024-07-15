@@ -24,6 +24,7 @@ import ServiceproviderAuth from './componenets/Serviceprovider/Auth/Auth';
 import EducationalServiceSelectionPage from './componenets/Educational/EducationalserviceSelection';
 import PicknDrop from './componenets/Transport/PicknDrop/PicknDrop';
 import RentalService from './componenets/Transport/Rental/RentalService';
+import Footer from './componenets/home/footer/Footer';
 function App() {
 
   const storedLocation = JSON.parse(localStorage.getItem('location'));
@@ -64,6 +65,7 @@ function App() {
           element={storedLocation ? <ProtectedRoute><BankingFacilities /></ProtectedRoute> : <Navigate to="/home/location" />}
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

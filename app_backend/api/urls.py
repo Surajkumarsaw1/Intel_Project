@@ -2,7 +2,7 @@ from django.urls import path,include
 from .views import get_health_facilities , fetch_place_details,fetch_banking_facilities_banks,fetch_banking_facilities_atm,search_flights,get_iata_code
 from .views import SchoolListView, TutorListView, EducationalAidListView,SchoolListFromDB
 from .views import get_local_pick_and_drop_services,get_ola_price,get_uber_price
-from .views import get_rental_vehical , calculate_distance
+from .views import get_rental_vehical , calculate_distance,get_doctors
 
 
 
@@ -21,6 +21,7 @@ urlpatterns = [
     path('transport/transport-services/ola-price/', get_ola_price, name='ola-price'),
     path('transport/transport-services/uber-price/', get_uber_price, name='uber-price'),
     path('transport/rental/', get_rental_vehical),
-    path('calculate_distance/', calculate_distance)
+    path('calculate_distance/', calculate_distance),
+    path('get_doctors/', get_doctors),
 
 ]

@@ -8,6 +8,7 @@
 .demo {
     display: flex;
     flex-direction: column;
+    width: 98%;
     gap: 20px;
 }
 
@@ -133,4 +134,56 @@ h2 {
     color: #2c3e50;
     max-height: 400px;
     overflow-y: auto;
+}
+
+.renowned-doctors-container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.specialty-group {
+    margin-bottom: 20px;
+}
+
+.specialty-group h3 {
+    font-size: 22px;
+    color: #8e44ad;
+    margin-bottom: 10px;
+}
+
+.doctors-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.doctor-item {
+    flex: 1;
+    min-width: 200px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.doctor-item:hover {
+    transform: scale(1.05);
+}
+
+.doctor-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+.doctor-item p {
+    margin: 5px 0;
+}
+
+.doctor-item p span {
+    font-weight: bold;
+    color: #34495e;
 }

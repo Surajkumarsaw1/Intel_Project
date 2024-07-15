@@ -112,7 +112,7 @@ def get_health_facilities(request):
     if not API_KEY:
         return Response({"error": "API key not configured"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-    place_types = ['hospital', 'pharmacy', 'Labs']
+    place_types = ['hospital', 'pharmacy']
     combined_results = []
     all_nearby_healthcare_services = []
 
@@ -122,7 +122,7 @@ def get_health_facilities(request):
     
     nearby_healthcare_services = fetch_local_places_with_distance(location, API_KEY)
   
-    print(nearby_healthcare_services)
+  
 
     return Response({
         'facilities': combined_results,
@@ -130,7 +130,7 @@ def get_health_facilities(request):
         'nearby_healthcare_services': nearby_healthcare_services
     }, status=status.HTTP_200_OK)
 
-@cached(cache)
+
 @api_view(['POST'])
 def calculate_distance(request):
     location = request.data.get('location')
@@ -138,6 +138,7 @@ def calculate_distance(request):
     service_type = request.data.get('servicetype')
 
     if not location or not services or not service_type:
+        print("working")
         return Response({"error": "Missing required parameters"}, status=status.HTTP_400_BAD_REQUEST)
     
     api_key = API_KEY
@@ -215,6 +216,7 @@ def calculate_distance(request):
         }, status=status.HTTP_200_OK)
     
     else:
+        print("no")
         return Response({"error": "Invalid service type"}, status=status.HTTP_400_BAD_REQUEST)
 
 
@@ -252,6 +254,62 @@ def fetch_place_details(request):
     details = fetch_place_details_from_api(place_id, API_KEY)
 
     return Response(details, status=status.HTTP_200_OK)
+
+
+import pandas as pd
+import requests
+from django.conf import settings
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
+
+@api_view(['POST'])
+def get_doctors(request):
+    def reverse_geocode(lat, lng, api_key):
+        url = f"https://maps.googleapis.com/maps/api/geocode/json?latlng={lat},{lng}&key={api_key}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            results = response.json().get('results', [])
+            if results:
+                state = city = None
+                for component in results[0]['address_components']:
+                    if 'administrative_area_level_1' in component['types']:
+                        state = component['long_name']
+                    if 'locality' in component['types']:
+                        city = component['long_name']
+                return state, city
+        return None, None
+
+    def filter_doctors_by_location(state, city):
+        doctors_df = pd.read_csv(os.path.join(settings.BASE_DIR, 'data', 'doctor_info.csv'))
+        filtered_doctors = doctors_df[(doctors_df['State'] == state)]
+        return filtered_doctors.to_dict('records')
+
+    lat = request.data.get('lat')
+    lng = request.data.get('lng')
+
+    if not lat or not lng:
+        return Response({"error": "Latitude and longitude are required"}, status=status.HTTP_400_BAD_REQUEST)
+
+    state, city = reverse_geocode(lat, lng, API_KEY)
+
+    if not state or not city:
+        return Response({"error": "Could not determine state and city from coordinates"}, status=status.HTTP_400_BAD_REQUEST)
+
+    filtered_doctors = filter_doctors_by_location(state, city)
+
+    return Response({
+        'state': state,
+        
+        'doctors': filtered_doctors
+    }, status=status.HTTP_200_OK)
+
+
+
+
+
+
+
 
 
 def clean_bank_name(name):

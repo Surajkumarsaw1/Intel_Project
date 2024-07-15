@@ -43,7 +43,7 @@ const EducationalServiceList = ({ serviceType }) => {
 
     return (
         <div className="service-list">
-            <h2>{serviceType.charAt(0).toUpperCase() + serviceType.slice(1)} Services</h2>
+            <h2>Local {serviceType.charAt(0).toUpperCase() + serviceType.slice(1)} Services</h2>
             {error && <p className="error">{error}</p>}
             <ul>
                 {services.map((service) => (

@@ -12,6 +12,9 @@ const HealthcareFacilities = () => {
     const [loading, setLoading] = useState(true);
     const [localServices, setLocalServices] = useState([]);
     const [distances, setDistances] = useState({});
+    const [doctors, setDoctors] = useState([]);
+
+    const [state, setState] = useState('');
     const [showLocationPicker, setShowLocationPicker] = useState(false);
     const location = JSON.parse(localStorage.getItem('location'));
     const facilitiesListRef = useRef(null);
@@ -33,10 +36,22 @@ const HealthcareFacilities = () => {
             setLoading(false);
 
             calculateDistances(location, data.facilities, data.nearby_healthcare_services);
+            fetchDoctors(location);
 
         } catch (error) {
             alert('Error fetching facilities');
             setLoading(false);
+        }
+    };
+
+    const fetchDoctors = async (location) => {
+        try {
+            const response = await axios.post('http://localhost:8000/api/get_doctors/', location);
+            setDoctors(response.data.doctors);
+            setState(response.data.state);
+
+        } catch (error) {
+            alert('Error fetching doctors');
         }
     };
 
@@ -46,6 +61,7 @@ const HealthcareFacilities = () => {
                 location,
                 services: facilities,
                 local_services: localServices,
+                servicetype: 'healthcare',
             });
             const data = response.data;
             const updatedServices = data.services;
@@ -79,6 +95,14 @@ const HealthcareFacilities = () => {
     const handleLocationUpdate = (newLocation) => {
         fetchFacilities(newLocation);
     };
+
+    const groupedDoctors = doctors.reduce((acc, doctor) => {
+        if (!acc[doctor.Specialty]) {
+            acc[doctor.Specialty] = [];
+        }
+        acc[doctor.Specialty].push(doctor);
+        return acc;
+    }, {});
 
     return (
         <div className="container">
@@ -171,6 +195,48 @@ const HealthcareFacilities = () => {
                             ) : (
                                 <p>No pharmacy data available.</p>
                             )}
+                        </div>
+                    </div>
+                    <div className="local-services-container">
+                        <h2>Local Services</h2>
+                        {localServices.length > 0 ? (
+                            localServices.map((service, index) => (
+                                <div key={index} className="service-item">
+                                    <h3>{service.name || 'Unnamed Service'}</h3>
+                                    <p><span>Type:</span> {service.service_type || 'N/A'}</p>
+                                    <p><span>Address:</span> {service.address || 'N/A'}</p>
+                                    <p><span>Contact:</span> {service.contact_info || 'N/A'}</p>
+                                    <p><span>Details:</span> {service.details || 'N/A'}</p>
+                                    <p><span>Speciality:</span> {service.speciality || 'N/A'}</p>
+                                    <p><span>Emergency Services:</span> {service.emergency_services ? 'Yes' : 'No'}</p>
+                                    <p><span>Home Service:</span> {service.provide_home_service ? 'Yes' : 'No'}</p>
+                                    <p><span>Basic Tests:</span> {service.provide_all_basic_tests ? 'Yes' : 'No'}</p>
+                                    <p><span>Distance:</span> {service.distance || 'Calculating...'} km</p>
+                                </div>
+                            ))
+                        ) : (
+                            <p>No local services available.</p>
+                        )}
+                    </div>
+                    <div className="renowned-doctors-container">
+                        <h2>Renowned Doctors in {state}</h2>
+                        <div className="doctors-list">
+                            {Object.keys(groupedDoctors).map((specialty, index) => (
+                                <div key={index} className="specialty-group">
+                                    <h3>{specialty}</h3>
+                                    <div className="doctors-row">
+                                        {groupedDoctors[specialty].map((doctor, docIndex) => (
+                                            <div key={docIndex} className="doctor-item">
+                                                <h3>{doctor.Doctor}</h3>
+                                                <p><span>Specialty:</span> {doctor.Specialty}</p>
+                                                <p><span>Hospital:</span> {doctor.Hospital}</p>
+                                                {doctor.City && <p><span>City:</span> {doctor.City}</p>}
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
+                            {doctors.length === 0 && <p>No doctors available.</p>}
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ const ManualdataSchoolList = () => {
 
     useEffect(() => {
         fetchServices();
-    }, [filter]); // re-fetch services when filter changes
+    }, [filter]);
 
     const loadMore = () => {
         setVisibleCount((prevCount) => prevCount + 10);

@@ -1,0 +1,242 @@
+State,Specialty,Doctor,Hospital,City
+Delhi,Cardiology,Dr. Naresh Trehan,Medanta - The Medicity, Gurgaon
+Delhi,Cardiology,Dr. Ashok Seth,Fortis Escorts Heart Institute, Delhi
+Delhi,Neurology,Dr. V. K. Gupta,AIIMS, Delhi
+Delhi,Neurology,Dr. Manjari Tripathi,AIIMS, Delhi
+Delhi,Oncology,Dr. Vinod Raina,Fortis Memorial Research Institute, Gurgaon
+Delhi,Oncology,Dr. Harit Chaturvedi,Max Super Specialty Hospital, Delhi
+Delhi,Orthopedics,Dr. Ashok Rajgopal,Medanta - The Medicity, Gurgaon
+Delhi,Orthopedics,Dr. R. K. Arya,Fortis Escorts Heart Institute, Delhi
+Delhi,Gastroenterology,Dr. Naresh Bansal,Medanta - The Medicity, Gurgaon
+Delhi,Gastroenterology,Dr. Rakesh Kumar,Fortis Escorts Heart Institute, Delhi
+Arunachal Pradesh,Cardiology,Dr. Taba Khanna,Tomato Memorial Hospital, Itanagar
+Arunachal Pradesh,Cardiology,Dr. M. K. Rina,Heema Hospital, Itanagar
+Arunachal Pradesh,Neurology,Dr. Takar Ringu,R.K. Mission Hospital, Itanagar
+Arunachal Pradesh,Neurology,Dr. Nabam Cheni,Niba Hospital, Naharlagun
+Arunachal Pradesh,Oncology,Dr. Taba Khanna,Heema Hospital, Itanagar
+Arunachal Pradesh,Oncology,Dr. M. K. Rina,Tomato Memorial Hospital, Itanagar
+Arunachal Pradesh,Orthopedics,Dr. Takar Ringu,R.K. Mission Hospital, Itanagar
+Arunachal Pradesh,Orthopedics,Dr. Nabam Cheni,Niba Hospital, Naharlagun
+Arunachal Pradesh,Gastroenterology,Dr. Taba Khanna,Heema Hospital, Itanagar
+Arunachal Pradesh,Gastroenterology,Dr. M. K. Rina,Tomato Memorial Hospital, Itanagar
+Assam,Cardiology,Dr. Manoj Kr. Bhuyan,GNRC Hospitals, Guwahati
+Assam,Cardiology,Dr. S. C. Das,Down Town Hospital, Guwahati
+Assam,Neurology,Dr. Atul Sarma,GNRC Hospitals, Guwahati
+Assam,Neurology,Dr. B. K. Sharma,Down Town Hospital, Guwahati
+Assam,Oncology,Dr. Amal Chandra Kataki,B. Borooah Cancer Institute, Guwahati
+Assam,Oncology,Dr. Rubee Das,Apollo Hospitals, Guwahati
+Assam,Orthopedics,Dr. Dhiren K. Baruah,GNRC Hospitals, Guwahati
+Assam,Orthopedics,Dr. N. C. Deka,Down Town Hospital, Guwahati
+Assam,Gastroenterology,Dr. Parthapratim Gupta,Apollo Hospitals, Guwahati
+Assam,Gastroenterology,Dr. Pranjal Kalita,GNRC Hospitals, Guwahati
+Bihar,Cardiology,Dr. Umeshwar Prasad Singh,Indira Gandhi Institute of Cardiology, Patna
+Bihar,Cardiology,Dr. R. N. Prasad,Paras HMRI Hospital, Patna
+Bihar,Neurology,Dr. Sunil Kumar,Paras HMRI Hospital, Patna
+Bihar,Neurology,Dr. A. K. Singh,Indira Gandhi Institute of Medical Sciences, Patna
+Bihar,Oncology,Dr. P. N. Sinha,Mahavir Cancer Institute and Research Centre, Patna
+Bihar,Oncology,Dr. S. K. Sinha,Paras HMRI Hospital, Patna
+Bihar,Orthopedics,Dr. Ashok Kumar Singh,Patna Medical College and Hospital, Patna
+Bihar,Orthopedics,Dr. R. N. Thakur,Paras HMRI Hospital, Patna
+Bihar,Gastroenterology,Dr. A. K. Singh,Indira Gandhi Institute of Medical Sciences, Patna
+Bihar,Gastroenterology,Dr. Sanjeev Kumar,Paras HMRI Hospital, Patna
+Chhattisgarh,Cardiology,Dr. R. K. Jain,Ramkrishna Care Hospital, Raipur
+Chhattisgarh,Cardiology,Dr. Rajesh Sharma,Balaji Heart Hospital, Raipur
+Chhattisgarh,Neurology,Dr. B. K. Singhal,Ramkrishna Care Hospital, Raipur
+Chhattisgarh,Neurology,Dr. D. P. Ghosh,Balaji Heart Hospital, Raipur
+Chhattisgarh,Oncology,Dr. N. K. Jain,Ramkrishna Care Hospital, Raipur
+Chhattisgarh,Oncology,Dr. R. K. Sharma,Balaji Heart Hospital, Raipur
+Chhattisgarh,Orthopedics,Dr. S. K. Singh,Ramkrishna Care Hospital, Raipur
+Chhattisgarh,Orthopedics,Dr. V. K. Jain,Balaji Heart Hospital, Raipur
+Chhattisgarh,Gastroenterology,Dr. S. K. Gupta,Ramkrishna Care Hospital, Raipur
+Chhattisgarh,Gastroenterology,Dr. V. K. Goyal,Balaji Heart Hospital, Raipur
+Goa,Cardiology,Dr. Francisco Colaco,Manipal Hospitals, Goa
+Goa,Cardiology,Dr. Rajesh Kini,Healthway Hospital, Goa
+Goa,Neurology,Dr. Tapan Bhattacharya,Manipal Hospitals, Goa
+Goa,Neurology,Dr. Uday Phadke,Healthway Hospital, Goa
+Goa,Oncology,Dr. Shekhar Salkar,Manipal Hospitals, Goa
+Goa,Oncology,Dr. S. K. Das,Healthway Hospital, Goa
+Goa,Orthopedics,Dr. J. P. Tiwari,Manipal Hospitals, Goa
+Goa,Orthopedics,Dr. R. K. Mishra,Healthway Hospital, Goa
+Goa,Gastroenterology,Dr. Francisco Colaco,Manipal Hospitals, Goa
+Goa,Gastroenterology,Dr. Rajesh Kini,Healthway Hospital, Goa
+Haryana,Cardiology,Dr. Naresh Trehan,Medanta-The Medicity, Gurgaon
+Haryana,Cardiology,Dr. Balbir Singh,Max Hospital, Gurgaon
+Haryana,Neurology,Dr. Sumit Singh,Medanta -The Medicity, Gurgaon
+Haryana,Neurology,Dr. Aditya Gupta,Artemis Hospital, Gurgaon
+Haryana,Oncology,Dr. Hari Goyal,Medanta -The Medicity, Gurgaon
+Haryana,Oncology,Dr. P. K. Das,Max Hospital, Gurgaon
+Haryana,Orthopedics,Dr. Ashok Rajgopal,Medanta -The Medicity, Gurgaon
+Haryana,Orthopedics,Dr. B. K. Singh,Artemis Hospital, Gurgaon
+Haryana,Gastroenterology,Dr. Randhir Sud,Medanta-The Medicity, Gurgaon
+Haryana,Gastroenterology,Dr. Arvind Khurana,Artemis Hospital, Gurgaon
+Himachal Pradesh,Cardiology,Dr. Anil Sharma,Indira Gandhi Medical College, Shimla
+Himachal Pradesh,Cardiology,Dr. Ramesh Chand,Fortis Hospital, Kangra
+Himachal Pradesh,Neurology,Dr. Sanjeev Gupta,Indira Gandhi Medical College, Shimla
+Himachal Pradesh,Neurology,Dr. Anil Kumar,Fortis Hospital, Kangra
+Himachal Pradesh,Oncology,Dr. Rajesh Sharma,Indira Gandhi Medical College, Shimla
+Himachal Pradesh,Oncology,Dr. Naresh Kumar,Fortis Hospital, Kangra
+Himachal Pradesh,Orthopedics,Dr. S. P. Sharma,Indira Gandhi Medical College, Shimla
+Himachal Pradesh,Orthopedics,Dr. Vinod Sharma,Fortis Hospital, Kangra
+Himachal Pradesh,Gastroenterology,Dr. Anil Sharma,Indira Gandhi Medical College, Shimla
+Himachal Pradesh,Gastroenterology,Dr. Ramesh Chand,Fortis Hospital, Kangra
+Jharkhand,Cardiology,Dr. A. K. Tiwari,Rajendra Institute of Medical Sciences, Ranchi
+Jharkhand,Cardiology,Dr. Rajesh Kumar,Medica Hospital, Ranchi
+Jharkhand,Neurology,Dr. B. K. Mishra,Rajendra Institute of Medical Sciences, Ranchi
+Jharkhand,Neurology,Dr. S. K. Singh,Medica Hospital, Ranchi
+Jharkhand,Oncology,Dr. N. K. Singh,Rajendra Institute of Medical Sciences, Ranchi
+Jharkhand,Oncology,Dr. R. K. Singh,Medica Hospital, Ranchi
+Jharkhand,Orthopedics,Dr. S. K. Sinha,Rajendra Institute of Medical Sciences, Ranchi
+Jharkhand,Orthopedics,Dr. A. K. Verma,Medica Hospital, Ranchi
+Jharkhand,Gastroenterology,Dr. A. K. Tiwari,Rajendra Institute of Medical Sciences, Ranchi
+Jharkhand,Gastroenterology,Dr. Rajesh Kumar,Medica Hospital, Ranchi
+Madhya Pradesh,Cardiology,Dr. V. K. Agrawal,Medanta Hospital, Indore
+Madhya Pradesh,Cardiology,Dr. N. S. Deopujari,Apollo Hospital, Bhopal
+Madhya Pradesh,Neurology,Dr. P. K. Jain,CHL Hospitals, Indore
+Madhya Pradesh,Neurology,Dr. A. K. Singh,Apollo Hospital, Bhopal
+Madhya Pradesh,Oncology,Dr. S. P. Chaurasia,CHL Hospitals, Indore
+Madhya Pradesh,Oncology,Dr. S. K. Mishra,Narmada Health Group, Bhopal
+Madhya Pradesh,Orthopedics,Dr. R. K. Sharma,CHL Hospitals, Indore
+Madhya Pradesh,Orthopedics,Dr. S. K. Jain,Apollo Hospital, Bhopal
+Madhya Pradesh,Gastroenterology,Dr. Sanjay Kumar,CHL Hospitals, Indore
+Madhya Pradesh,Gastroenterology,Dr. S. K. Mishra,Narmada Health Group, Bhopal
+Manipur,Cardiology,Dr. Ch. Mohen,Shija Hospitals and Research Institute, Imphal
+Manipur,Cardiology,Dr. R. K. Lenin,RIMS, Imphal
+Manipur,Neurology,Dr. N. Shantikumar,Shija Hospitals and Research Institute, Imphal
+Manipur,Neurology,Dr. R. K. Imo,RIMS, Imphal
+Manipur,Oncology,Dr. S. Deben,Shija Hospitals and Research Institute, Imphal
+Manipur,Oncology,Dr. A. Kumar,RIMS, Imphal
+Manipur,Orthopedics,Dr. K. Sanjoy,Shija Hospitals and Research Institute, Imphal
+Manipur,Orthopedics,Dr. L. Deben,RIMS, Imphal
+Manipur,Gastroenterology,Dr. N. Shantikumar,Shija Hospitals and Research Institute, Imphal
+Manipur,Gastroenterology,Dr. R. K. Imo,RIMS, Imphal
+Meghalaya,Cardiology,Dr. E. Dkhar,NEIGRIHMS, Shillong
+Meghalaya,Cardiology,Dr. J. H. Laloo,Bethany Hospital, Shillong
+Meghalaya,Neurology,Dr. R. War,NEIGRIHMS, Shillong
+Meghalaya,Neurology,Dr. L. B. Mawlong,Bethany Hospital, Shillong
+Meghalaya,Oncology,Dr. K. Marbaniang,NEIGRIHMS, Shillong
+Meghalaya,Oncology,Dr. D. Mawlong,Bethany Hospital, Shillong
+Meghalaya,Orthopedics,Dr. D. Kharshing,NEIGRIHMS, Shillong
+Meghalaya,Orthopedics,Dr. W. Kharkongor,Bethany Hospital, Shillong
+Meghalaya,Gastroenterology,Dr. R. War,NEIGRIHMS, Shillong
+Meghalaya,Gastroenterology,Dr. L. B. Mawlong,Bethany Hospital, Shillong
+Mizoram,Cardiology,Dr. Lalmuansangi,State Referral Hospital, Falkawn
+Mizoram,Cardiology,Dr. Zothanpari,Private Practice, Aizawl
+Mizoram,Neurology,Dr. Vanlalruati,State Referral Hospital, Falkawn
+Mizoram,Neurology,Dr. Lalramliana,Private Practice, Aizawl
+Mizoram,Oncology,Dr. Lalmalsawma,State Referral Hospital, Falkawn
+Mizoram,Oncology,Dr. Zothanpari,Private Practice, Aizawl
+Mizoram,Orthopedics,Dr. Lalruatsanga,State Referral Hospital, Falkawn
+Mizoram,Orthopedics,Dr. Lalthangliana,Private Practice, Aizawl
+Mizoram,Gastroenterology,Dr. Lalmuansangi,State Referral Hospital, Falkawn
+Mizoram,Gastroenterology,Dr. Zothanpari,Private Practice, Aizawl
+Nagaland,Cardiology,Dr. Alemba Jamir,Christian Institute of Health Sciences and Research, Dimapur
+Nagaland,Cardiology,Dr. Limasenla Ao,Naga Hospital, Kohima
+Nagaland,Neurology,Dr. Vizolhu Angami,Christian Institute of Health Sciences and Research, Dimapur
+Nagaland,Neurology,Dr. Lanu Jamir,Naga Hospital, Kohima
+Nagaland,Oncology,Dr. Asangba Tzudir,Christian Institute of Health Sciences and Research, Dimapur
+Nagaland,Oncology,Dr. Mekola,Private Practice, Kohima
+Nagaland,Orthopedics,Dr. Lipok,Christian Institute of Health Sciences and Research, Dimapur
+Nagaland,Orthopedics,Dr. Bendangwati,Naga Hospital, Kohima
+Nagaland,Gastroenterology,Dr. Alemba Jamir,Christian Institute of Health Sciences and Research, Dimapur
+Nagaland,Gastroenterology,Dr. Limasenla Ao,Naga Hospital, Kohima
+Odisha,Cardiology,Dr. Pravas Mishra,KIMS Hospital, Bhubaneswar
+Odisha,Cardiology,Dr. Sanjib Mohanty,AMRI Hospitals, Bhubaneswar
+Odisha,Neurology,Dr. N. K. Mohanty,KIMS Hospital, Bhubaneswar
+Odisha,Neurology,Dr. Debabrata Mohanty,AMRI Hospitals, Bhubaneswar
+Odisha,Oncology,Dr. L. K. Dash,Apollo Hospitals, Bhubaneswar
+Odisha,Oncology,Dr. S. K. Das,Sum Ultimate Medicare, Bhubaneswar
+Odisha,Orthopedics,Dr. D. P. Mishra,KIMS Hospital, Bhubaneswar
+Odisha,Orthopedics,Dr. A. K. Sahu,AMRI Hospitals, Bhubaneswar
+Odisha,Gastroenterology,Dr. R. K. Panda,KIMS Hospital, Bhubaneswar
+Odisha,Gastroenterology,Dr. A. K. Rath,AMRI Hospitals, Bhubaneswar
+Sikkim,Cardiology,Dr. N. Pradhan,Central Referral Hospital, Gangtok
+Sikkim,Cardiology,Dr. P. K. Rai,Sir Thutob Namgyal Memorial Hospital, Gangtok
+Sikkim,Neurology,Dr. T. L. Bhutia,Central Referral Hospital, Gangtok
+Sikkim,Neurology,Dr. N. B. Sharma,Sir Thutob Namgyal Memorial Hospital, Gangtok
+Sikkim,Oncology,Dr. S. K. Lama,Central Referral Hospital, Gangtok
+Sikkim,Oncology,Dr. P. K. Rai,Sir Thutob Namgyal Memorial Hospital, Gangtok
+Sikkim,Orthopedics,Dr. S. K. Pradhan,Central Referral Hospital, Gangtok
+Sikkim,Orthopedics,Dr. L. R. Sharma,Sir Thutob Namgyal Memorial Hospital, Gangtok
+Sikkim,Gastroenterology,Dr. N. Pradhan,Central Referral Hospital, Gangtok
+Sikkim,Gastroenterology,Dr. P. K. Rai,Sir Thutob Namgyal Memorial Hospital, Gangtok
+Telangana,Cardiology,Dr. B. Soma Raju,Care Hospitals, Hyderabad
+Telangana,Cardiology,Dr. C. Raghu,Star Hospitals, Hyderabad
+Telangana,Neurology,Dr. Sudhir Kumar,Apollo Hospitals, Hyderabad
+Telangana,Neurology,Dr. B. V. L. Narayana Rao,Yashoda Hospitals, Hyderabad
+Telangana,Oncology,Dr. T. Raja,American Oncology Institute, Hyderabad
+Telangana,Oncology,Dr. N. V. S. Ramana Rao,KIMS Hospitals, Hyderabad
+Telangana,Orthopedics,Dr. A. V. Gurava Reddy,Sunshine Hospitals, Hyderabad
+Telangana,Orthopedics,Dr. K. J. Reddy,Star Hospitals, Hyderabad
+Telangana,Gastroenterology,Dr. Nageshwar Reddy,Asian Institute of Gastroenterology, Hyderabad
+Telangana,Gastroenterology,Dr. G. V. Rao,Apollo Hospitals, Hyderabad
+Tripura,Cardiology,Dr. S. K. Debbarma,Tripura Medical College, Agartala
+Tripura,Cardiology,Dr. D. C. Nath,IGM Hospital, Agartala
+Tripura,Neurology,Dr. P. K. Debbarma,Tripura Medical College, Agartala
+Tripura,Neurology,Dr. M. L. Deb,IGM Hospital, Agartala
+Tripura,Oncology,Dr. R. K. Paul,Tripura Medical College, Agartala
+Tripura,Oncology,Dr. P. K. Das,IGM Hospital, Agartala
+Tripura,Orthopedics,Dr. T. K. Biswas,Tripura Medical College, Agartala
+Tripura,Orthopedics,Dr. R. L. Deb,IGM Hospital, Agartala
+Tripura,Gastroenterology,Dr. S. K. Debbarma,Tripura Medical College, Agartala
+Tripura,Gastroenterology,Dr. D. C. Nath,IGM Hospital, Agartala
+Uttarakhand,Cardiology,Dr. Rajesh Sharma,Max Super Speciality Hospital, Dehradun
+Uttarakhand,Cardiology,Dr. V. K. Aggarwal,Fortis Hospital, Dehradun
+Uttarakhand,Neurology,Dr. P. K. Jain,Max Super Speciality Hospital, Dehradun
+Uttarakhand,Neurology,Dr. S. P. Aggarwal,Fortis Hospital, Dehradun
+Uttarakhand,Oncology,Dr. N. K. Sharma,Max Super Speciality Hospital, Dehradun
+Uttarakhand,Oncology,Dr. Rajesh Sharma,Fortis Hospital, Dehradun
+Uttarakhand,Orthopedics,Dr. P. K. Jain,Max Super Speciality Hospital, Dehradun
+Uttarakhand,Orthopedics,Dr. A. S. Saini,Fortis Hospital, Dehradun
+Uttarakhand,Gastroenterology,Dr. N. K. Sharma,Max Super Speciality Hospital, Dehradun
+Uttarakhand,Gastroenterology,Dr. Rajesh Sharma,Fortis Hospital, Dehradun
+Gujarat,Cardiology,Dr. Tejas Patel,Apex Heart Institute,Ahmedabad
+Gujarat,Neurology,Dr. Sudhir Shah,Sterling Hospital,Ahmedabad
+Gujarat,Oncology,Dr. Kaustav Talapatra,HCG Cancer Centre,Ahmedabad
+Gujarat,Orthopedics,Dr. Vikram I. Shah,Shalby Hospital,Ahmedabad
+Gujarat,Gastroenterology,Dr. Chirag Desai,Apollo Hospitals,Ahmedabad
+Karnataka,Cardiology,Dr. Devi Prasad Shetty,Narayana Health,Bengaluru
+Karnataka,Neurology,Dr. N. K. Venkataramana,BGS Gleneagles Global Hospitals,Bengaluru
+Karnataka,Oncology,Dr. Somashekhar S. P.,Manipal Hospital,Bengaluru
+Karnataka,Orthopedics,Dr. Chandrashekar P.,Manipal Hospital,Bengaluru
+Karnataka,Gastroenterology,Dr. Raj Vigna Venugopal,Manipal Hospital,Bengaluru
+Kerala,Cardiology,Dr. Jose Chacko Periappuram,Medical Trust Hospital,Kochi
+Kerala,Neurology,Dr. Easwaran Vasudevan,Sree Chitra Tirunal Institute for Medical Sciences and Technology,Thiruvananthapuram
+Kerala,Oncology,Dr. V. P. Gangadharan,Lakeshore Hospital,Kochi
+Kerala,Orthopedics,Dr. Thadi Mohan,Amrita Institute of Medical Sciences,Kochi
+Kerala,Gastroenterology,Dr. Mathew Philip,Amrita Institute of Medical Sciences,Kochi
+Maharashtra,Cardiology,Dr. B. K. Goyal,Bombay Hospital,Mumbai
+Maharashtra,Neurology,Dr. Nirmal Surya,Surya Neuro Centre,Mumbai
+Maharashtra,Oncology,Dr. S. H. Advani,Jaslok Hospital,Mumbai
+Maharashtra,Orthopedics,Dr. Sanjay Desai,Breach Candy Hospital,Mumbai
+Maharashtra,Gastroenterology,Dr. Amit Maydeo,Global Hospital,Mumbai
+Punjab,Cardiology,Dr. R. K. Jaswal,Fortis Hospital,Mohali
+Punjab,Neurology,Dr. Gagandeep Singh,Apollo Hospitals,Ludhiana
+Punjab,Oncology,Dr. S. S. Sekhon,DMCH,Ludhiana
+Punjab,Orthopedics,Dr. J. S. Arora,Fortis Hospital,Mohali
+Punjab,Gastroenterology,Dr. Yogesh Chawla,PGIMER,Chandigarh
+Rajasthan,Cardiology,Dr. Sanjeev Sharma,Eternal Hospital,Jaipur
+Rajasthan,Neurology,Dr. Mukesh Sharma,Jain Neuro Centre,Jaipur
+Rajasthan,Oncology,Dr. Sachin Gupta,Bhagwan Mahaveer Cancer Hospital,Jaipur
+Rajasthan,Orthopedics,Dr. Pradeep Sharma,Manipal Hospital,Jaipur
+Rajasthan,Gastroenterology,Dr. Nirmal Kumar,Fortis Escorts Hospital,Jaipur
+Tamil Nadu,Cardiology,Dr. K. M. Cherian,Frontier Lifeline Hospital,Chennai
+Tamil Nadu,Neurology,Dr. D. K. Sridhar,Global Hospital,Chennai
+Tamil Nadu,Oncology,Dr. T. G. Sagar,Adyar Cancer Institute,Chennai
+Tamil Nadu,Orthopedics,Dr. A. Subramanian,MIOT International,Chennai
+Tamil Nadu,Gastroenterology,Dr. M. R. Rajasekar,Global Hospital,Chennai
+Uttar Pradesh,Cardiology,Dr. Naresh Trehan,Medanta Lucknow,Lucknow
+Uttar Pradesh,Neurology,Dr. Atul Prasad,Max Super Speciality Hospital,Noida
+Uttar Pradesh,Oncology,Dr. Hari Goyal,Fortis Hospital,Noida
+Uttar Pradesh,Orthopedics,Dr. Pradeep Bhosale,Saifee Hospital,Kanpur
+Uttar Pradesh,Gastroenterology,Dr. Rakesh Tandon,Max Super Speciality Hospital,Noida
+West Bengal,Cardiology,Dr. Kunal Sarkar,Medica Superspecialty Hospital,Kolkata
+West Bengal,Neurology,Dr. Rana Patir,Apollo Gleneagles Hospitals,Kolkata
+West Bengal,Oncology,Dr. Gautam Mukhopadhyay,Tata Medical Center,Kolkata
+West Bengal,Orthopedics,Dr. Manoj Kumar Khemani,Woodlands Multispeciality Hospital,Kolkata
+West Bengal,Gastroenterology,Dr. Mahesh Goenka,Apollo Gleneagles Hospitals,Kolkata
+Andaman and Nicobar Islands,Cardiology,Dr. Mohan Kumar,Govt. Hospital,Port Blair
+Andaman and Nicobar Islands,Neurology,Dr. Dinesh Das,Govt. Hospital,Port Blair
+Andaman and Nicobar Islands,Oncology,Dr. S. P. Singh,Govt. Hospital,Port Blair
+Andaman and Nicobar Islands,Orthopedics,Dr. A. K. Singh,Govt. Hospital,Port Blair
+Andaman and Nicobar Islands,Gastroenterology,Dr. R. S. Das,Govt. Hospital,Port Blair
+

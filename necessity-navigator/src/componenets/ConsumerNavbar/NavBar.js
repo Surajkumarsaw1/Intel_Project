@@ -28,7 +28,7 @@ const ConsumerNavbar = () => {
 
     return (
         <div className="navbar">
-            <h1>Utility Navigator</h1>
+            <h1>SERVICE NAVIGATOR</h1>
             {isAuthenticated ? (
                 <ul>
                     <li><Link to={"/home"}>Home</Link></li>

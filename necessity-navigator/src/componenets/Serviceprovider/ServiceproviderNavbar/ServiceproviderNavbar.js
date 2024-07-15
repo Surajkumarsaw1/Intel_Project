@@ -9,7 +9,7 @@ const ServiceproviderNavbar = () => {
     return (
         <div className="navbar">
 
-            <h1>Utility Navigator</h1>
+            <h1>SERVICE NAVIGATOR</h1>
 
             <ul>
                 <li><Link to={"/service_provider/dashboard"}>Dashboard</Link></li>
